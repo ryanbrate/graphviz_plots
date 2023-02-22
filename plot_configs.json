@@ -1,0 +1,196 @@
+[
+    {
+        "desc": "KB dataset breakdown",
+        "switch": false,
+        "struct": {
+            "USA": [
+                "Texas",
+                "Arizona"
+            ]
+        },
+        "prop": {
+            "USA": {
+                "region": "USA",
+                "population": "300M"
+            },
+            "Texas": {
+                "region": "Texas",
+                "population": "20M"
+            }
+        },
+        "graph_attr": {},
+        "output_dir": "DATA/graphviz_plots/example"
+    },
+    {
+        "desc": "KB dataset breakdown",
+        "switch": true,
+        "struct": {
+            "KB Kranten": [
+                "1951 & 1991\n(~= 1.2M & 0.7M articles respectively)",
+                "1952 & 1992\n(~= 1.2M & 0.7M articles respectively)",
+                "1946-1950\n(approx ...)",
+                "1981-1990\n (~= 7.3M articles)"
+            ]
+        },
+        "graph_attr": {
+            "rankdir": "LR"
+        },
+        "output_dir": "DATA/graphviz_plots/CHR_poster2022"
+    },
+    {
+        "desc": "51 vs 91",
+        "switch": true,
+        "struct": {
+            "10": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "11": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "6": [
+                "100"
+            ]
+        },
+        "prop": {
+            "10": {
+                "year": "1951",
+                "article count": "~= 1.2M"
+            },
+            "11": {
+                "year": "1991",
+                "article count": "~= 0.7M"
+            },
+            "1": {
+                "publication": "Trouw",
+                "viewpoint": "Protestant",
+                "article count": "~= 35K"
+            },
+            "2": {
+                "publication": "De Volksrant",
+                "viewpoint": "Catholic",
+                "article count": "~= 25K"
+            },
+            "3": {
+                "publication": "Het Vrije Volk",
+                "viewpoint": "Socialist",
+                "article count": "~= 30K"
+            },
+            "4": {
+                "publication": "De Telegraaf",
+                "viewpoint": "Liberal",
+                "article count": "~= 35K"
+            },
+            "5": {
+                "publication": "Trouw",
+                "viewpoint": "Protestant",
+                "article count": "~= 70K"
+            },
+            "6": {
+                "publication": "De Volksrant",
+                "viewpoint": "Catholic",
+                "article count": "~= 55K"
+            },
+            "7": {
+                "publication": "Het Vrije Volk",
+                "viewpoint": "Socialist",
+                "article count": "~= 15K"
+            },
+            "8": {
+                "publication": "De Telegraaf",
+                "viewpoint": "Liberal",
+                "article count": "~= 85K"
+            },
+            "100": {
+                "content word": "ras",
+                "article count": "211"
+            }
+        },
+        "graph_attr": {
+            "rankdir": "TB"
+        },
+        "output_dir": "DATA/graphviz_plots/CHR_poster2022"
+    },
+    {
+        "desc": "De nederige slaaf",
+        "switch": true,
+        "struct": {
+            "0": [
+                "1"
+            ],
+            "1": [
+                "2"
+            ]
+        },
+        "prop": {
+            "1": {
+                "pos": "NOUN|PROPN"
+            },
+            "2": {
+                "pos": "ADJ"
+            }
+        },
+        "graph_attr": {
+            "rankdir": "LR"
+        },
+        "output_dir": "DATA/graphviz_plots/CHR_poster2022"
+    },
+    {
+        "desc": "Hij werkt als een slaaf",
+        "switch": true,
+        "struct": {
+            "0": [
+                "1"
+            ],
+            "1": [
+                "2"
+            ]
+        },
+        "prop": {
+            "1": {
+                "pos": "VERB"
+            },
+            "2": {
+                "pos": "NOUN|PROPN"
+            }
+        },
+        "graph_attr": {
+            "rankdir": "LR"
+        },
+        "output_dir": "DATA/graphviz_plots/CHR_poster2022"
+    },
+    {
+        "desc": "de seven n",
+        "switch": true,
+        "struct": {
+            "0": [
+                "1"
+            ],
+            "1": [
+                "2",
+                "3"
+            ]
+        },
+        "prop": {
+            "1": {
+                "pos": "VERB"
+            },
+            "2": {
+                "pos": "AUX"
+            },
+            "3": {
+                "dep": "nsubj:pass",
+                "label": "patient"
+            }
+        },
+        "graph_attr": {
+            "rankdir": "LR"
+        },
+        "output_dir": "DATA/graphviz_plots/CHR_poster2022"
+    }
+]
